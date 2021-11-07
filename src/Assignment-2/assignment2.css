@@ -2,6 +2,68 @@
 
 
 .container, .content {
-width: 100%;
-height: 100%;
-}
+    width: 100%;
+    height: 100%;
+    }
+    .head{
+        background-color: aqua;
+        border: 2px solid black;
+        height:200px;
+    }
+    .logo{
+        float: left;
+        width: 91px;
+        margin: 55px 0px
+    }
+    .searchbar{
+        margin: 5% 0% 0% 0%;
+        float: right;
+    }
+    .navigation{
+        margin: 150px 0px 0px 0px;  
+        border: 2px solid blue;
+        height: 40px;
+        text-align: center;
+      
+    }
+    .navsection{
+        margin: 10px 68px;
+    } 
+    .blocks{
+        display: block;
+        border:2px solid black;
+        
+        
+    
+    }
+    .leftblock{
+    width:15%;
+    vertical-align: top;
+    display: inline-block;
+    
+    height:auto;
+    
+    }
+    #main-content-section{
+        width:65%;
+        display: inline-block;
+        vertical-align: top;
+    }
+    .post-img{
+        margin:10px;
+        width:31%;
+        
+    }
+    #right-sidebar-menu{
+        margin:0px 0px 0px 80px;
+        width:14%;
+        display: inline-block;
+        height:auto;
+        vertical-align: top;
+    }
+    #page-footer{
+        width:auto;
+        height:125px;
+        display:block;
+        border:2px solid #06023f;
+    }
